@@ -1,0 +1,291 @@
+body{
+	margin: 0px;
+}
+
+nav {
+	background-color: #3399ff;
+	padding:10px;
+	clear:top;
+}
+
+nav ul{
+	margin: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding-right: 30px;
+	color: white;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.titulo{
+	color: white;
+}
+
+.titulo:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.botao{
+	color:#3399ff;
+	display: inline-block;
+	font-size: 27px;
+	padding: 15px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: 35px;
+	margin-right: 35px;
+	padding-left: 60px;
+	padding-right: 60px;
+	border: 2px solid #3399ff;
+  
+}
+
+.botao:hover{
+	text-decoration: none;
+}
+
+
+.topico ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 16px;
+	border-style: solid;
+	margin: 20px;
+}
+
+.cinza{
+	background-color: #303030;
+	color:white;
+	text-align: center;
+	padding: 25px;
+}
+
+.topico ul {
+	padding: 0px;
+}
+
+.cidades{
+	color:#fff;
+	border: 2px solid #fff;
+	padding: 12px;
+	padding-right: 80px;
+	padding-left: 80px;
+    border-radius: 54px;
+	background-color: #3399ff;
+    text-align: center;
+	text-decoration: none;
+	
+}
+
+.cidades select-items{
+	border: 20px;
+	
+}
+
+.form_cidades .botao_pesquisa{
+	margin-right: 15px;
+	margin-left: 15px;
+	color:#fff;
+	border: 2px solid #fff;
+	padding: 12px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 54px;
+	text-align: center;
+	background-color: #3399ff;
+
+
+}
+
+.botoes_menu{
+	margin: 0.3%;
+	color:#3399ff;
+	border: 2px solid #3399ff;
+	padding: 5px;
+	padding-right: 45px;
+	padding-left: 45px;
+	border-radius: 54px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.menu_edit{
+	margin: 7%;
+}
+
+.botao_pesquisa:hover{
+	text-decoration: none;
+
+}
+
+.pesquisa_cidades{
+	background-color: #3399ff;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+.posto {
+	overflow: hidden;
+	margin: 1.5%;
+
+}
+
+.tubarao_sc_style{
+	height: 250px;
+	width: auto;
+
+
+}
+
+
+.imagem{
+	height: 100%;
+ 	margin: auto;
+	float: left;
+	
+}
+
+.lala img{
+ 	margin: auto;
+	height: 100%;
+	max-height: 250px;
+	max-width: 250px;
+	float: left;
+}
+
+.artigo{
+
+	margin-left: 6%;
+	margin-right: 6%;
+	float: left;
+}
+
+.preco{
+	font-weight: bold;
+}
+
+#myBtn{
+	border: 2px solid #3399ff; 
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	padding: 6px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 54px;
+	margin: 10px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	margin-left: 70%;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box BEGIN */
